@@ -39,17 +39,12 @@ export default [
   },
   {
     path: '/my-blog/blog',
-    component: ComponentCreator('/my-blog/blog', '2ee'),
+    component: ComponentCreator('/my-blog/blog', '634'),
     exact: true
   },
   {
     path: '/my-blog/blog/使用Dinosaurs搭建GitHub博客',
     component: ComponentCreator('/my-blog/blog/使用Dinosaurs搭建GitHub博客', '15a'),
-    exact: true
-  },
-  {
-    path: '/my-blog/blog/我的blog该不该用云图服务？',
-    component: ComponentCreator('/my-blog/blog/我的blog该不该用云图服务？', '6c8'),
     exact: true
   },
   {
@@ -75,6 +70,11 @@ export default [
   {
     path: '/my-blog/blog/first-blog-post',
     component: ComponentCreator('/my-blog/blog/first-blog-post', '500'),
+    exact: true
+  },
+  {
+    path: '/my-blog/blog/GitHub博客的图片该怎么管理',
+    component: ComponentCreator('/my-blog/blog/GitHub博客的图片该怎么管理', '99c'),
     exact: true
   },
   {
