@@ -4,7 +4,7 @@
         <title>MiracleBro Blog</title>
         <link>https://miraclebro89757.github.io/my-blog/blog</link>
         <description>MiracleBro Blog</description>
-        <lastBuildDate>Tue, 14 Jan 2025 07:43:41 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 14 Jan 2025 08:28:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[使用Dinosaurs搭建GitHub博客]]></title>
             <link>https://miraclebro89757.github.io/my-blog/blog/使用Dinosaurs搭建GitHub博客</link>
             <guid>https://miraclebro89757.github.io/my-blog/blog/使用Dinosaurs搭建GitHub博客</guid>
-            <pubDate>Tue, 14 Jan 2025 07:43:41 GMT</pubDate>
+            <pubDate>Tue, 14 Jan 2025 08:28:32 GMT</pubDate>
             <description><![CDATA[本教程为一次通关系列✅，作者亲自实操，实效性随着发布时间增加可能会失效，新鲜出炉请尽快食用。]]></description>
             <content:encoded><![CDATA[<p>本教程为一次通关系列✅，作者亲自实操，实效性随着发布时间增加可能会失效，新鲜出炉请尽快食用。</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-安装-nodejs-和-npm">1. 安装 Node.js 和 npm<a href="https://miraclebro89757.github.io/my-blog/blog/%E4%BD%BF%E7%94%A8Dinosaurs%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2#1-%E5%AE%89%E8%A3%85-nodejs-%E5%92%8C-npm" class="hash-link" aria-label="Direct link to 1. 安装 Node.js 和 npm" title="Direct link to 1. 安装 Node.js 和 npm">​</a></h3>
@@ -82,6 +82,27 @@
 <li>如有域名，配置 GitHub Pages 的自定义域名，可以购买域名后再做。</li>
 <li>根据需要配置主题和插件，以增强博客功能和美观度，官方目前只有经典模版，其他的模版暂未推出，也不建议魔改。</li>
 </ul>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[一、问题来源]]></title>
+            <link>https://miraclebro89757.github.io/my-blog/blog/我的blog该不该用云图服务？</link>
+            <guid>https://miraclebro89757.github.io/my-blog/blog/我的blog该不该用云图服务？</guid>
+            <pubDate>Tue, 14 Jan 2025 08:28:32 GMT</pubDate>
+            <description><![CDATA[搭建好博客网站后，我发布了一篇文章，发现文章的图片是没办法在github的博客上加载的，查看了图片的路径写的是本地的路径，当然没办法加载orz…]]></description>
+            <content:encoded><![CDATA[<p>搭建好博客网站后，我发布了一篇文章，发现文章的图片是没办法在github的博客上加载的，查看了图片的路径写的是本地的路径，当然没办法加载orz…</p>
+<h1>二、解决办法</h1>
+<ol>
+<li>使用github的存储，把全部文章的图片都打包到img这个文件夹下，上传到github，在文章中引用即可。虽然此法可用，但我毕竟有一个geek的梦想，觉得这种方式一点都不geek！而且以后想要把文章发到别的平台时迁移起来就很痛苦，需要重新配图，另外图片多了之后访问的速度也会很卡，遂弃之。</li>
+<li>使用云服务，例如国内的七牛云、阿里云等，坏处就是要花点💰！在没有赚到钱时就让我花钱是绝对不可能的。如果文章写得好，质量比较高的话，我的博客火了🔥！那肯定还是要接一个云图服务的，并且把我的文章分享到别的平台时一键copy！甚至可以写个脚本完成！这就是钞能力吧，人生苦短，时间是无价的。</li>
+<li>其他云服务的好处：例如cdn加速、容灾备份、访问权限控制、图片处理服务等</li>
+</ol>
+<h1>计划</h1>
+<p>暂时先把博客作为我的纯文字输出工具！</p>
+<p>✏️写作是对思维最好的训练，先通过文字把自己想表达的思想传播出去。</p>
+<p>我写作的目的？</p>
+<p>释放内心的焦虑，输入的内容太多了，做一些输出，清空大脑。</p>
+<p>后期可以作为自媒体视频素材二次加工。</p>
+<p>用费曼学习法做知识输出，更加系统化的掌握知识。</p>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
