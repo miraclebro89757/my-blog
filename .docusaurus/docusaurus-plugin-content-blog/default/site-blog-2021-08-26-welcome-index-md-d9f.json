@@ -73,6 +73,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "使用Dinosaurs搭建GitHub博客",
+    "permalink": "/my-blog/blog/使用Dinosaurs搭建GitHub博客"
+  },
   "nextItem": {
     "title": "MDX Blog Post",
     "permalink": "/my-blog/blog/mdx-blog-post"

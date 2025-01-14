@@ -39,7 +39,12 @@ export default [
   },
   {
     path: '/my-blog/blog',
-    component: ComponentCreator('/my-blog/blog', 'a4f'),
+    component: ComponentCreator('/my-blog/blog', '2e2'),
+    exact: true
+  },
+  {
+    path: '/my-blog/blog/使用Dinosaurs搭建GitHub博客',
+    component: ComponentCreator('/my-blog/blog/使用Dinosaurs搭建GitHub博客', '15a'),
     exact: true
   },
   {

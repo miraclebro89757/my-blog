@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "使用Dinosaurs搭建GitHub博客",
+      "permalink": "/my-blog/blog/使用Dinosaurs搭建GitHub博客",
+      "unlisted": false,
+      "date": "2025-01-14T07:28:08.389Z"
+    },
+    {
       "title": "Welcome",
       "permalink": "/my-blog/blog/welcome",
       "unlisted": false,
@@ -24,12 +30,6 @@
       "permalink": "/my-blog/blog/long-blog-post",
       "unlisted": false,
       "date": "2019-05-29T00:00:00.000Z"
-    },
-    {
-      "title": "First Blog Post",
-      "permalink": "/my-blog/blog/first-blog-post",
-      "unlisted": false,
-      "date": "2019-05-28T00:00:00.000Z"
     }
   ]
 }
