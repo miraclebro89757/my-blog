@@ -42,7 +42,7 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/blog-b2f": {
+  "/blog-b1d": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
@@ -54,6 +54,9 @@
       },
       {
         "content": "content---blogf-4-f-cd7"
+      },
+      {
+        "content": "content---blogf-96-107"
       },
       {
         "content": "content---blog-871-381"
@@ -137,6 +140,17 @@
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---blog-first-blog-poste-27-4a1"
   },
+  "/blog/greetings-bcc": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-2021-02-28-greetingsa-7-a-4b0"
+  },
   "/blog/long-blog-post-9ad": {
     "__comp": "__comp---theme-blog-post-pageccc-cab",
     "__context": {
@@ -201,6 +215,19 @@
       }
     ],
     "__props": "__props---blog-tags-facebooke-5-a-514"
+  },
+  "/blog/tags/greetings-32a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogf-96-107"
+      }
+    ],
+    "__props": "__props---blog-tags-greetingscb-3-3d3"
   },
   "/blog/tags/hello-299": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",

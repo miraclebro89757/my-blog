@@ -9,8 +9,8 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://miraclebro89757.github.io",
   "baseUrl": "/",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "miraclebro89757",
+  "projectName": "my-blog",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
