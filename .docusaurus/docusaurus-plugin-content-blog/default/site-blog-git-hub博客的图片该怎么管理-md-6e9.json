@@ -5,11 +5,22 @@
   "title": "GitHub博客的图片该怎么管理",
   "description": "一、问题来源",
   "date": "2025-01-14T08:28:32.000Z",
-  "tags": [],
+  "tags": [
+    {
+      "inline": false,
+      "label": "博客搭建",
+      "permalink": "/my-blog/blog/tags/blog-setup",
+      "description": "分享博客搭建过程"
+    }
+  ],
   "readingTime": 2.31,
   "hasTruncateMarker": false,
   "authors": [],
-  "frontMatter": {},
+  "frontMatter": {
+    "tags": [
+      "博客搭建"
+    ]
+  },
   "unlisted": false,
   "nextItem": {
     "title": "使用Dinosaurs搭建GitHub博客",

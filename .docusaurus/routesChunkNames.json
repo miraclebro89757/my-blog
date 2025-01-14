@@ -209,6 +209,22 @@
     "sidebar": "sidebar---blog-814-8ac",
     "__props": "__props---my-blog-blog-tags-082-d1d"
   },
+  "/my-blog/blog/tags/blog-setup-77e": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---my-blog-blog-597-831"
+      },
+      {
+        "content": "content---my-blog-blog-842-dfa"
+      }
+    ],
+    "__props": "__props---my-blog-blog-tags-blog-setupf-05-df8"
+  },
   "/my-blog/blog/tags/docusaurus-3a4": {
     "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
     "__context": {

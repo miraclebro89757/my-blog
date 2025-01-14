@@ -98,6 +98,11 @@ export default [
     exact: true
   },
   {
+    path: '/my-blog/blog/tags/blog-setup',
+    component: ComponentCreator('/my-blog/blog/tags/blog-setup', '77e'),
+    exact: true
+  },
+  {
     path: '/my-blog/blog/tags/docusaurus',
     component: ComponentCreator('/my-blog/blog/tags/docusaurus', '3a4'),
     exact: true

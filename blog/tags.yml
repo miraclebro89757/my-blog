@@ -17,3 +17,14 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+cursor:
+  label: Cursor
+  permalink: /cursor
+  description: Cursor tag description
+
+博客搭建:
+  label: 博客搭建
+  permalink: /blog-setup
+  description: 分享博客搭建过程
+
