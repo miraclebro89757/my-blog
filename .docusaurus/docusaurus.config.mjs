@@ -8,7 +8,7 @@ export default {
   "tagline": "Create a miracle life",
   "favicon": "img/favicon.ico",
   "url": "https://miraclebro89757.github.io",
-  "baseUrl": "/",
+  "baseUrl": "/my-blog/",
   "organizationName": "miraclebro89757",
   "projectName": "my-blog",
   "onBrokenLinks": "throw",
@@ -27,7 +27,7 @@ export default {
       {
         "docs": {
           "sidebarPath": "./sidebars.js",
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
+          "editUrl": "https://github.com/miraclebro89757/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
           "showReadingTime": true,
@@ -38,7 +38,7 @@ export default {
             ],
             "xslt": true
           },
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          "editUrl": "https://github.com/miraclebro89757/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
           "onInlineTags": "warn",
           "onInlineAuthors": "warn",
           "onUntruncatedBlogPosts": "warn"
@@ -70,7 +70,7 @@ export default {
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/miraclebro89757/docusaurus",
           "label": "GitHub",
           "position": "right"
         }
@@ -115,7 +115,7 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
+              "href": "https://github.com/miraclebro89757/docusaurus"
             }
           ]
         }
