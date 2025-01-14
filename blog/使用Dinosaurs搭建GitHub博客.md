@@ -7,26 +7,26 @@
 
 ### 2. 初始化项目
 - 新建一个本地blog文件夹，进入文件夹后在命令行中运行：
-  ```bash
-npm init docusaurus@latest my-website classic
-  ```
+```bash
+  npm init docusaurus@latest my-website classic
+```
 
 ### 3. 配置项目
 - 进入项目目录并安装依赖：
-  ```bash
-  cd my-website 
-  npm install
-  ```
+```bash
+    cd my-website 
+    npm install
+```
 - 启动开发服务器以检查项目是否正常运行：
   ```bash
   npm start
   ```
 
 ### 4.查看本地页面
-- 打开浏览器访问 `http://localhost:3000` 查看默认页面，下图为成功截图。![[Pasted image 20250113144715.png]]
+- 打开浏览器访问 `http://localhost:3000`查看默认页面。
 
 ### 5. 创建 GitHub 仓库并关联
-- 在 GitHub 上创建一个新的仓库，命名为 `my-blog`(注意不要创建LICENSE 等文件，就一个空的仓库就行，点错创建了其他文件可以直接删掉)，点击下图复制你的GitHub仓库地址。![[Pasted image 20250113145034.png]]
+- 在 GitHub 上创建一个新的仓库，命名为 `my-blog`(注意不要创建LICENSE 等文件，就一个空的仓库就行，点错创建了其他文件可以直接删掉)，点击复制你的GitHub仓库地址。
 - 在本地项目目录中初始化 Git 并关联远程仓库（注意origin后面是你上面复制的GitHub仓库地址）：
   ```bash
   git init
