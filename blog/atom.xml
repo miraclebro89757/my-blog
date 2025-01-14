@@ -2,11 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://miraclebro89757.github.io/my-blog/blog</id>
     <title>MiracleBro Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2025-01-14T07:28:30.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://miraclebro89757.github.io/my-blog/blog"/>
     <subtitle>MiracleBro Blog</subtitle>
     <icon>https://miraclebro89757.github.io/my-blog/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[使用Dinosaurs搭建GitHub博客]]></title>
+        <id>https://miraclebro89757.github.io/my-blog/blog/使用Dinosaurs搭建GitHub博客</id>
+        <link href="https://miraclebro89757.github.io/my-blog/blog/使用Dinosaurs搭建GitHub博客"/>
+        <updated>2025-01-14T07:28:30.000Z</updated>
+        <summary type="html"><![CDATA[本教程为一次通关系列✅，作者亲自实操，实效性随着发布时间增加可能会失效，新鲜出炉请尽快食用。]]></summary>
+        <content type="html"><![CDATA[<p>本教程为一次通关系列✅，作者亲自实操，实效性随着发布时间增加可能会失效，新鲜出炉请尽快食用。</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-安装-nodejs-和-npm">1. 安装 Node.js 和 npm<a href="https://miraclebro89757.github.io/my-blog/blog/%E4%BD%BF%E7%94%A8Dinosaurs%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2#1-%E5%AE%89%E8%A3%85-nodejs-%E5%92%8C-npm" class="hash-link" aria-label="Direct link to 1. 安装 Node.js 和 npm" title="Direct link to 1. 安装 Node.js 和 npm">​</a></h3>
+<ul>
+<li>检查是否安装 Node.js：<code>node -v</code> ，要求版本&gt;18.0</li>
+<li>如未安装或版本过低，从 <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">Node.js 官网</a> 下载并安装升级。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-初始化项目">2. 初始化项目<a href="https://miraclebro89757.github.io/my-blog/blog/%E4%BD%BF%E7%94%A8Dinosaurs%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2#2-%E5%88%9D%E5%A7%8B%E5%8C%96%E9%A1%B9%E7%9B%AE" class="hash-link" aria-label="Direct link to 2. 初始化项目" title="Direct link to 2. 初始化项目">​</a></h3>
+<ul>
+<li>新建一个本地blog文件夹，进入文件夹后在命令行中运行：<!-- -->
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"></code></pre>
+</li>
+</ul>
+<p>npm init docusaurus@latest my-website classic</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">### 3. 配置项目</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">- 进入项目目录并安装依赖：</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">```bash</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">cd my-website </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm install</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<ul>
+<li>启动开发服务器以检查项目是否正常运行：<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm start</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4查看本地页面">4.查看本地页面<a href="https://miraclebro89757.github.io/my-blog/blog/%E4%BD%BF%E7%94%A8Dinosaurs%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2#4%E6%9F%A5%E7%9C%8B%E6%9C%AC%E5%9C%B0%E9%A1%B5%E9%9D%A2" class="hash-link" aria-label="Direct link to 4.查看本地页面" title="Direct link to 4.查看本地页面">​</a></h3>
+<ul>
+<li>打开浏览器访问 <code>http://localhost:3000</code> 查看默认页面，下图为成功截图。![[Pasted image 20250113144715.png]]</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-创建-github-仓库并关联">5. 创建 GitHub 仓库并关联<a href="https://miraclebro89757.github.io/my-blog/blog/%E4%BD%BF%E7%94%A8Dinosaurs%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2#5-%E5%88%9B%E5%BB%BA-github-%E4%BB%93%E5%BA%93%E5%B9%B6%E5%85%B3%E8%81%94" class="hash-link" aria-label="Direct link to 5. 创建 GitHub 仓库并关联" title="Direct link to 5. 创建 GitHub 仓库并关联">​</a></h3>
+<ul>
+<li>在 GitHub 上创建一个新的仓库，命名为 <code>my-blog</code>(注意不要创建LICENSE 等文件，就一个空的仓库就行，点错创建了其他文件可以直接删掉)，点击下图复制你的GitHub仓库地址。![[Pasted image 20250113145034.png]]</li>
+<li>在本地项目目录中初始化 Git 并关联远程仓库（注意origin后面是你上面复制的GitHub仓库地址）：<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">git init</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git remote add origin https://github.com/username/my-blog.git</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-配置-github-pages">6. 配置 GitHub Pages<a href="https://miraclebro89757.github.io/my-blog/blog/%E4%BD%BF%E7%94%A8Dinosaurs%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2#6-%E9%85%8D%E7%BD%AE-github-pages" class="hash-link" aria-label="Direct link to 6. 配置 GitHub Pages" title="Direct link to 6. 配置 GitHub Pages">​</a></h3>
+<ul>
+<li>安装 <code>gh-pages</code>：<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">npm install --save-dev gh-pages</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>在 <code>package.json</code> 中添加部署脚本：<!-- -->
+<div class="language-json codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-json codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token property" style="color:#36acaa">"scripts"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token punctuation" style="color:#393A34">{</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  </span><span class="token property" style="color:#36acaa">"deploy"</span><span class="token operator" style="color:#393A34">:</span><span class="token plain"> </span><span class="token string" style="color:#e3116c">"docusaurus deploy"</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token punctuation" style="color:#393A34">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+<li>检查项目的根目录下<code>.github/workflows/deploy.yml</code>的权限是否正确</li>
+</ul>
+<div class="language-yml codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-yml codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">permissions</span><span class="token punctuation" style="color:#393A34">:</span><span class="token comment" style="color:#999988;font-style:italic">#必须有下面这两行，否则部署时会报错权限不足</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">	</span><span class="token key atrule" style="color:#00a4db">contents</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> write</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">	</span><span class="token key atrule" style="color:#00a4db">pages</span><span class="token punctuation" style="color:#393A34">:</span><span class="token plain"> write</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7-提交代码并部署">7. 提交代码并部署<a href="https://miraclebro89757.github.io/my-blog/blog/%E4%BD%BF%E7%94%A8Dinosaurs%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2#7-%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E5%B9%B6%E9%83%A8%E7%BD%B2" class="hash-link" aria-label="Direct link to 7. 提交代码并部署" title="Direct link to 7. 提交代码并部署">​</a></h3>
+<ul>
+<li>提交初始代码：<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">git add .</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git commit -m "Initial commit"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git push -u origin main</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="8-启用-github-pages">8. 启用 GitHub Pages<a href="https://miraclebro89757.github.io/my-blog/blog/%E4%BD%BF%E7%94%A8Dinosaurs%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2#8-%E5%90%AF%E7%94%A8-github-pages" class="hash-link" aria-label="Direct link to 8. 启用 GitHub Pages" title="Direct link to 8. 启用 GitHub Pages">​</a></h3>
+<ul>
+<li>在仓库新建<code>gh-pages</code>分支![[Pasted image 20250113152251.png]]</li>
+<li>进入 GitHub 仓库设置，找到 GitHub Pages 部分。</li>
+<li>选择分支和路径，通常是 <code>gh-pages</code> 分支。</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="9-写博客文章">9. 写博客文章<a href="https://miraclebro89757.github.io/my-blog/blog/%E4%BD%BF%E7%94%A8Dinosaurs%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2#9-%E5%86%99%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0" class="hash-link" aria-label="Direct link to 9. 写博客文章" title="Direct link to 9. 写博客文章">​</a></h3>
+<ul>
+<li>在 <code>blog</code> 目录下创建新的 Markdown 文件，编写文章内容。</li>
+<li>保存后，运行 <code>npm start</code> 查看本地预览。</li>
+<li>提交代码并部署更新：<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">git add .</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git commit -m "Add new blog post"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">git push</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">npm run deploy</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="10-配置域名和主题">10. 配置域名和主题<a href="https://miraclebro89757.github.io/my-blog/blog/%E4%BD%BF%E7%94%A8Dinosaurs%E6%90%AD%E5%BB%BAGitHub%E5%8D%9A%E5%AE%A2#10-%E9%85%8D%E7%BD%AE%E5%9F%9F%E5%90%8D%E5%92%8C%E4%B8%BB%E9%A2%98" class="hash-link" aria-label="Direct link to 10. 配置域名和主题" title="Direct link to 10. 配置域名和主题">​</a></h3>
+<ul>
+<li>如有域名，配置 GitHub Pages 的自定义域名，可以购买域名后再做。</li>
+<li>根据需要配置主题和插件，以增强博客功能和美观度，官方目前只有经典模版，其他的模版暂未推出，也不建议魔改。</li>
+</ul>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://miraclebro89757.github.io/my-blog/blog/welcome</id>
