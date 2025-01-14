@@ -42,13 +42,16 @@
       "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/my-blog/blog-2e2": {
+  "/my-blog/blog-2ee": {
     "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
     "__context": {
       "plugin": "plugin---blog-369-22e"
     },
     "sidebar": "sidebar---blog-814-8ac",
     "items": [
+      {
+        "content": "content---my-blog-blogcc-0-7fc"
+      },
       {
         "content": "content---my-blog-blog-842-dfa"
       },
@@ -80,6 +83,17 @@
     },
     "sidebar": "sidebar---blog-814-8ac",
     "content": "content---my-blog-blog-使用-dinosaurs搭建-git-hub博客-2-df-d38"
+  },
+  "/my-blog/blog/我的blog该不该用云图服务？-6c8": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-authorsace-e7d"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---my-blog-blog-我的blog该不该用云图服务？-217-c31"
   },
   "/my-blog/blog/archive-956": {
     "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",

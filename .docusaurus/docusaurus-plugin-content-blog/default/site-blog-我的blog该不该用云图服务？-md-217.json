@@ -1,0 +1,18 @@
+{
+  "permalink": "/my-blog/blog/我的blog该不该用云图服务？",
+  "editUrl": "https://github.com/miraclebro89757/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/我的blog该不该用云图服务？.md",
+  "source": "@site/blog/我的blog该不该用云图服务？.md",
+  "title": "一、问题来源",
+  "description": "搭建好博客网站后，我发布了一篇文章，发现文章的图片是没办法在github的博客上加载的，查看了图片的路径写的是本地的路径，当然没办法加载orz…",
+  "date": "2025-01-14T08:27:56.271Z",
+  "tags": [],
+  "readingTime": 2.275,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {},
+  "unlisted": false,
+  "nextItem": {
+    "title": "使用Dinosaurs搭建GitHub博客",
+    "permalink": "/my-blog/blog/使用Dinosaurs搭建GitHub博客"
+  }
+}

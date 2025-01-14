@@ -39,12 +39,17 @@ export default [
   },
   {
     path: '/my-blog/blog',
-    component: ComponentCreator('/my-blog/blog', '2e2'),
+    component: ComponentCreator('/my-blog/blog', '2ee'),
     exact: true
   },
   {
     path: '/my-blog/blog/使用Dinosaurs搭建GitHub博客',
     component: ComponentCreator('/my-blog/blog/使用Dinosaurs搭建GitHub博客', '15a'),
+    exact: true
+  },
+  {
+    path: '/my-blog/blog/我的blog该不该用云图服务？',
+    component: ComponentCreator('/my-blog/blog/我的blog该不该用云图服务？', '6c8'),
     exact: true
   },
   {
